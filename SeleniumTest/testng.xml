@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/anamaria.zuluaga/Desktop/Capacitaci�n Selenium/CapacitacionSeleniumSerg/SeleniumTest">
+        <classes>
+            <class name="test.BaseTest"><methods>
+            <include name="testBuscarRemera"/>
+            <include name="testBuscarVestido"/></methods>
+        </class>
+            <class name="test.PrincipalTest"><methods>
+            <include name="testBuscarRemera"/>
+            <include name="testBuscarVestido"/>
+        </methods>
+        </class>
+        </classes>
+    </test>
+</suite>
